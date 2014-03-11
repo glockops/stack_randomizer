@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btStackRandomizer">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="stacks" type="C" size="255">
+			<default value="0" />
+		</field>		
+	</table>
+</schema>
